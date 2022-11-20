@@ -194,7 +194,7 @@
 .half-background { background-size: cover; background-repeat: no-repeat; background-position: center center; overflow: hidden; }
 
 /* Style */
-.half-background.style-1 { background-image: url('../img/about.png'); width: 100px; height: 100px; }
+.half-background.style-1 { background-image: url('../img/about.png');  }
 .half-background.style-2 { background-image: url('../img/bg-services-1-420x330.jpg'); }
 
 @media only screen and (max-width: 991px) {
@@ -261,7 +261,7 @@
 
 /* Carousel Control
 -------------------------------------------------------------- */
-.owl-theme .owl-nav, .owl-theme .owl-dots { display: none; }
+.owl-theme .owl-nav, .owl-theme .owl-dots { display: none; z-index: 999; }
 .has-bullets .owl-theme .owl-dots { display: block; padding-top: 35px; }
 .has-bullets.bullet24 .owl-theme .owl-dots { padding-top: 24px; }
 .has-arrows .owl-theme .owl-nav { display: block; }
@@ -564,7 +564,7 @@
 /* Style 1 */
 .themesflat-accordions.style-1 .accordion-item { padding: 13px 0px; border: 1px solid #f2f2f2; background-color: transparent; }
 .themesflat-accordions.style-1 .accordion-item.active {  padding: 22px 0px 20px 0px; }
-.themesflat-accordions.style-1 .accordion-item .accordion-heading { font-size: 14px; color: #777; text-transform: uppercase; padding: 0px 22px; }
+.themesflat-accordions.style-1 .accordion-item .accordion-heading { font-size: 22px; color: rgb(84, 84, 84); text-transform: uppercase; padding: 0px 22px; }
 .themesflat-accordions.style-1 .accordion-item .accordion-content { padding-left: 56px; padding-top: 13px; line-height: 26px; letter-spacing: -0.07px; }
 .themesflat-accordions.style-1 .accordion-item.active  { background-color: #fafafb;   }
 .themesflat-accordions.style-1 .accordion-item.active  .accordion-heading { color: #222; }
