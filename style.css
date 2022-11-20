@@ -1147,6 +1147,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
   align-items: center;
   justify-content: center;
   object-fit: cover;
+ 
   /* background-image: url("assets/img/para-cover.jpg"); */
   height: 400px;
 }
@@ -1156,7 +1157,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 
 @media only screen and (max-width:468px) {
   .photo-cover{
-    height: 350px;
+   
     width: 100%;
     object-fit: cover;
   }
