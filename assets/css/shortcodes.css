@@ -194,7 +194,7 @@
 .half-background { background-size: cover; background-repeat: no-repeat; background-position: center center; overflow: hidden; }
 
 /* Style */
-.half-background.style-1 { background-image: url('../img/about.png');  }
+.half-background.style-1 { background-image: url('../img/about-us.png');  }
 .half-background.style-2 { background-image: url('../img/bg-services-1-420x330.jpg'); }
 
 @media only screen and (max-width: 991px) {
